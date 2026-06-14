@@ -44,3 +44,12 @@ wandb/
 
 # Env files
 .env
+
+# Claude Code session files
+.claude/
+
+# Staged push state
+scripts/.push_state.json
+
+# Test images
+sample.png
