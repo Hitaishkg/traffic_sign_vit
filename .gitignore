@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+.venv/
+venv/
+
+# Data (too large for git)
+data/raw/
+data/processed/
+data/*.zip
+data/*.tar.gz
+*.csv
+!data/sample.csv
+
+# Model checkpoints
+*.pth
+*.pt
+*.bin
+*.safetensors
+models/checkpoints/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+runs/
+wandb/
+
+# Hugging Face cache (if local)
+.cache/
+
+# Env files
+.env
